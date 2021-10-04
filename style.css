@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&family=Gemunu+Libre:wght@200;400&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gemunu Libre', sans-serif;
+    background-image: url("./img/bg.jpg");
+    background-size: cover;
+    background-position: center center;
+    min-height: 90vh;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.countdown-c {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.text {
+    font-weight: bold;
+    line-height: 1;
+    font-size: 6rem;
+    margin: 0 2rem;
+}
+
+.countdown-el {
+    text-align: center;
+}
+
+.countdown-el span {
+    font-size: 1.5rem;
+}
